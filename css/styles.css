@@ -320,7 +320,8 @@ img {
   margin-bottom: 20px;
 }
 
-.address-text {
+.address-map {
+  display: block;
   margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
@@ -340,7 +341,9 @@ img {
 }
 
 .address-item:hover,
-.address-item:focus {
+.address-item:focus,
+.address-map:hover,
+.address-map:focus {
   color: var(--accent-color);
 }
 
